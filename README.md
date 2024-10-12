@@ -44,7 +44,7 @@ npm run dev
 And by doing so we will execute Sanity's servers where we can access:
 
 - Structure - This is where the content is added and edited
-- Vision - This is where we can access the content raw files and make queries to fecth the data content and shove it to our frontend to grab and show it.
+- Vision - This is where we can access the content raw files and make queries to fetch the data content and shove it to our frontend to grab and show it.
 - Schedules - This is where we can add content and schedule an incoming date for ir to do something.
 
 # License

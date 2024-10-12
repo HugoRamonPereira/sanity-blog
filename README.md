@@ -15,7 +15,7 @@
 <img src='./app/assets/images/article-page-dark.png' />
 
 
-## SANITY BLOG - FRONTEND
+## SANITY BLOG - FRONTEND TECH STACK
 
 <p align-items="center" justify-content="center">
   <img src='./app/assets/images/sanity-blog-tech-stack.png' />

@@ -23,14 +23,12 @@ async function getPosts() {
 export default async function Home() {
   const blogData: simpleBlogProps[] = await getPosts();
 
-  console.log('Posts data: ', blogData);
-
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 mt-5 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 gap-4">
       {blogData.map((post, index) => (
         <Card
           key={index}
-          className="w-full max-w-sm rounded-lg overflow-hidden shadow-lg"
+          className="w-full sm:max-w-fit rounded-lg overflow-hidden shadow-lg"
         >
           <CardHeader className="p-0">
             <div className="relative w-full h-48 rounded-t-lg overflow-hidden">

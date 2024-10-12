@@ -46,7 +46,7 @@ export default async function BlogArticle({params}: {params: { slug: string }}) 
           className="rounded-3xl"
         />
       </div>
-      <div className="mt-16 prose min-w-[90%] mx-auto">
+      <div className="mt-16 prose min-w-[90%] mx-auto dark:text-gray-200">
         <MarkdownRenderer content={markdownArrayText} />
       </div>
     </div>

@@ -5,7 +5,7 @@ interface LinkedinIconProps {
   secondaryColor?: string;
 }
 
-const LinkedinIcon = ({ width = 24, height = 24, mainColor, secondaryColor }: LinkedinIconProps) => {
+const LinkedinIcon = ({ width, height, mainColor, secondaryColor }: LinkedinIconProps) => {
   return (
     <svg
       data-name="Layer 1"

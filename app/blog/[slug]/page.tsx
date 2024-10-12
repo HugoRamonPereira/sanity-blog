@@ -1,7 +1,9 @@
 import { MarkdownRenderer } from "@/app/components/MarkdownRenderer";
 import { client, urlFor } from "@/app/lib/sanity";
 import { fullBlogProps } from "@/lib/interface";
+import { House } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 async function getArticlesData(slug: string) {
   const query = `
@@ -48,6 +50,15 @@ export default async function BlogArticle({params}: {params: { slug: string }}) 
       </div>
       <div className="mt-16 prose min-w-[90%] mx-auto dark:text-gray-200">
         <MarkdownRenderer content={markdownArrayText} />
+      </div>
+      <div className="mt-10 p-4">
+        <Link 
+          href="/" 
+          className="w-fit flex items-center gap-2 px-4 py-2 rounded-md mx-auto border border-gray-500 text-gray-500 hover:border-primary hover:text-white hover:bg-primary transition-colors duration-150"
+        >
+          Back to Home
+          <House strokeWidth={1.5} size={20} />
+        </Link>
       </div>
     </div>
   )

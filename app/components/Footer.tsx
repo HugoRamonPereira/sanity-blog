@@ -36,7 +36,7 @@ export function Footer() {
               />
             </Link>
           </TooltipMsg>
-          <TooltipMsg message="Visit my Github">
+          <TooltipMsg message="Check my repos on Github">
             <Link href="https://github.com/HugoRamonPereira" target="_blank">
               <GithubIcon width={24} height={24} />
             </Link>

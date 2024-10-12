@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SANITY BLOG - Hugo Ramon's Blog Posts 
 
-## Getting Started
+### A place where you can find my articles
 
-First, run the development server:
+* #### Home page in Light Mode
+<img src='./app/assets/images/home-page-light.png' />
 
-```bash
+* #### Home page in Dark Mode
+<img src='./app/assets/images/home-page-dark.png' />
+
+* #### Article page in Light Mode
+<img src='./app/assets/images/article-page-light.png' />
+
+* #### Article page in Dark Mode
+<img src='./app/assets/images/article-page-dark.png' />
+
+
+## SANITY BLOG - FRONTEND
+
+<p align-items="center" justify-content="center">
+  <img src='./app/assets/images/sanity-blog-tech-stack.png' />
+</p>
+
+The project was built using [React.js](https://react.dev/) and [Next.js](https://nextjs.org/) with [NPM](https://www.npmjs.com/) as our package manager.
+
+As for the UI, we've used [Shadcn-ui](https://ui.shadcn.com/) along with [TailwindCSS](https://tailwindcss.com/).
+
+To handle the content of the articles we used [Sanity](https://www.sanity.io/) where we added everything and shared with the Frontend application for the content to be displayed.
+
+These are the steps to execute our project:
+
+- To run in Development mode we use the command:
+
+```javascript
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+And in our project there is a folder named **sanity-blog** which was the name we gave to it and in this folder we can cd into it and execute the command:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```javascript
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+And by doing so we will execute Sanity's servers where we can access:
 
-## Learn More
+- Structure - This is where the content is added and edited
+- Vision - This is where we can access the content raw files and make queries to fecth the data content and shove it to our frontend to grab and show it.
+- Schedules - This is where we can add content and schedule an incoming date for ir to do something.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# License
+© Done with a lot of &#10084; by Hugo Ramon Pereira -> [Portfolio](https://hugoramonpereira.dev/) -> [LinkedIn](https://www.linkedin.com/in/hugo-ramon-pereira/) 🇧🇷 .

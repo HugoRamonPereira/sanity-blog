@@ -54,7 +54,7 @@ export default async function BlogArticle({params}: {params: { slug: string }}) 
       <div className="mt-10 p-4">
         <Link 
           href="/" 
-          className="w-fit flex items-center gap-2 px-4 py-2 rounded-md mx-auto border border-gray-500 text-gray-500 hover:border-primary hover:text-white hover:bg-primary transition-colors duration-150"
+          className="w-fit flex items-center gap-2 px-4 py-2 rounded-md mx-auto border border-gray-500 text-gray-500 hover:border-primary hover:text-white hover:bg-primary transition-colors duration-150 dark:border-gray-200 dark:text-gray-200 dark:hover:border-primary"
         >
           Back to Home
           <House strokeWidth={1.5} size={20} />
